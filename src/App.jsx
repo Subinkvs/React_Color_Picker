@@ -4,13 +4,15 @@ import UpdateObject from "./UpdateObject";
 import UpdateArray from "./UpdateArray";
 import MyComponent from "./MyComponent";
 import ToDoList from "./ToDoList";
+import NewComponent from "./NewComponent";
+import SizeComponent from "./SizeComponent";
 // Parent Component
 
 function App() {
 
     return(
       <>
-      <ToDoList/>
+      <SizeComponent/>
       </>
  
      );
