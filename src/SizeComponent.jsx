@@ -20,8 +20,8 @@ function SizeComponent(){
     }
 
     return(<>
-    <h2>Width :{width} px</h2>
-    <h2>Height:{height} px</h2>
+    <h2>Width :{width}:px</h2>
+    <h2>Height:{height}: px</h2>
     </>);
 
 }
