@@ -12,7 +12,7 @@ function SizeComponent(){
 
     useEffect(() =>{
         document.title = `Size ${width} * ${height}`
-    }, [width, height])
+    }, [width,height])
 
     function handleSize(){
         setWidth(window.innerWidth)
