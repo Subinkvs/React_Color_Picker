@@ -1,12 +1,16 @@
+import React, {useState} from "react"
 import ComponentB from "./ComponentB"
+
 
 function ComponentA(){
 
+    const [user, setName] = useState("Subin")
 
     return(
         <div className="box">
             <h1>ComponentA</h1>
-            <ComponentB/>
+            <p>{`Hello ${user}`}</p>
+            <ComponentB user={user}/>
         </div>
     )
 
