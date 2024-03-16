@@ -7,13 +7,14 @@ import ToDoList from "./ToDoList";
 import NewComponent from "./NewComponent";
 import SizeComponent from "./SizeComponent";
 import ComponentA from "./ComponentA";
+import Reference from "./Reference";
 // Parent Component
 
 function App() {
 
     return(
       <>
-      <ComponentA/>
+      <Reference/>
       </>
  
      );
